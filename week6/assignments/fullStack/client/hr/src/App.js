@@ -45,10 +45,10 @@ function App() {
         jobs.map(jobs => {
           return <Jobs 
             {...jobs}
-            JobId={jobs.JOB_ID}
-            JobTitle={jobs.JOB_TITLE}
-            MinSalary={jobs.MIN_SALARY}
-            MaxSalary={jobs.MAX_SALARY}
+            JOB_ID={jobs.JOB_ID}
+            JOB_TITLE={jobs.JOB_TITLE}
+            MIN_SALARY={jobs.MIN_SALARY}
+            MAX_SALARY={jobs.MAX_SALARY}
             editJobs={editJobs}
             deleteJob={deleteJob}
           />
