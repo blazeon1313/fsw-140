@@ -1,0 +1,21 @@
+* {
+  background-color: honeydew;
+  margin: 5px;
+}
+
+.header {
+  text-decoration: underline;
+  text-align: center;
+  background-color: mediumseagreen;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.jobForm {
+  justify-content: space-between;
+}
